@@ -1,0 +1,23 @@
+name: flutter_map_test
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=2.19.2 <3.0.0"
+
+dependencies:
+  flutter_map: ^3.1.0 # leafleat map
+  latlong2: ^0.8.1 # lat lang points
+  get: ^4.6.5 # getx is the best
+  http: ^0.13.5 # for http requests
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
